@@ -13,8 +13,8 @@ ros2_ws/
         ├── CMakeLists.txt
         ├── package.xml
         ├── src/
-        │   ├── rover_status_publisher.cpp or .py
-        │   └── rover_status_subscriber.cpp or .py
+        │   ├── rover_status_publisher.py
+        │   └── rover_status_subscriber.py
         ├── launch/                 (Bonus)
         │   └── bringup.launch.py
         └── ...
@@ -29,8 +29,8 @@ ros2_ws/
     │   ├── CMakeLists.txt
     │   ├── package.xml
     │   ├── src/
-    │   │   ├── rover_status_msg_publisher.cpp or .py
-    │   │   └── rover_status_msg_subscriber.cpp or .py
+    │   │   ├── rover_status_msg_publisher.py
+    │   │   └── rover_status_msg_subscriber.py
     │   ├── launch/                 (Bonus)
     │   │   └── bringup.launch.py
     │   └── ...
@@ -126,5 +126,6 @@ Your repository must contain a `README.md` describing:
    * Updated `CMakeLists.txt` and `package.xml` files (where applicable).
    * A `README.md` documenting your approach, assumptions, challenges faced, and testing methodology.
 6. Ensure that all custom functions include appropriate docstrings and that your code is sufficiently documented to explain any non-trivial logic.
+7. Add videos of all required questions' scripts working to `Google Classroom`.  
 
 > **Note:** Do not create a new repository for each assignment. Continue using the same private repository throughout the induction process so that your progress and commit history can be reviewed over time.
