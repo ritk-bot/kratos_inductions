@@ -2,6 +2,7 @@
 ## Instructions
 ### ROS2 Basics 
 For Q1, Q2 and bonus questions your src should follow the following structure.
+```Only use python nodes for all submissions.```
 #### Expected Package Structure
 ##### Question 1
 
@@ -74,6 +75,7 @@ arm_humble/
 ### Requirements
 
 - Create a new `scripts/` directory.
+- Only use python nodes.
 - Place your ROS2 node inside the `scripts/` directory.
 - Modify `CMakeLists.txt` so your Python node is installed correctly.
 - If additional ROS dependencies are required, update `package.xml`.
