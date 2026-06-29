@@ -1,2 +1,2 @@
-# kratos_inductions
-Kratos induction material on this repo
+# Week 3
+## Instructions
